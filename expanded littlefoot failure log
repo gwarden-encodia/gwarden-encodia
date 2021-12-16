@@ -1,0 +1,87 @@
+2021-12-15 19:33:06,361 - [INFO] - bb_system -  * Open Valve 'PEW' @ B0104, position=(63.8, 109.6, 42.0)
+2021-12-15 19:33:06,457 - [INFO] - instrument_device - --> ASPIRATE: 553.0 \u00b5L @ 50.0 \u00b5L/s to abs pos=14232
+2021-12-15 19:33:06,506 - [INFO] - bb_system -  ** ASPIRATE REAGENT FROM BYPASS (Reagent='PEW' 553.0 \u00b5L @ 50.0 \u00b5L/s)**
+........
+......
+........
+2021-12-15 19:33:23,695 - [INFO] - instrument_device - Flowrate=44.58 \u00b5L/s, Total Volume=476.98 \u00b5L, Total Air=20.00, Num pts=168, Elapsed time=17.11 secs
+2021-12-15 19:33:23,747 - [INFO] - bb_system -  ** ASPIRATE AIR FROM BYPASS (205.0 \u00b5L @ 50.0 \u00b5L/s)**
+2021-12-15 19:33:23,785 - [INFO] - instrument_device - --> ASPIRATE: 205.0 \u00b5L @ 50.0 \u00b5L/s to abs pos=19152
+2021-12-15 19:33:28,985 - [INFO] - instrument_device - Flowrate=42.69 \u00b5L/s, Total Volume=631.77 \u00b5L, Total Air=20.00, Num pts=218, Elapsed time=22.32 secs
+2021-12-15 19:33:29,036 - [INFO] - bb_system -  ** PUSH TO WASTE (53.0 \u00b5L @ 50.0 \u00b5L/s)**
+2021-12-15 19:33:30,089 - [INFO] - bb_system -  * Open Valve 'WASTE' @ A04, position=4
+2021-12-15 19:33:30,137 - [INFO] - instrument_device - --> DISPENSE: 53.0 \u00b5L @ 50.0 \u00b5L/s to abs pos=17880
+2021-12-15 19:33:33,273 - [INFO] - bb_system -  * Open Valve 'CL1' @ A02, position=2
+2021-12-15 19:33:33,273 - [INFO] - bb_system -  ** DISPENSE TO BYPASS (Reagent='PEW' 500.0 \u00b5L @ 50.0 \u00b5L/s)**
+2021-12-15 19:33:33,321 - [INFO] - instrument_device - --> DISPENSE: 500.0 \u00b5L @ 50.0 \u00b5L/s to abs pos=5880
+2021-12-15 19:33:44,384 - [WARN] - instrument_device - *** Reply buffer does not start with SYNC! *** [reply = b'383830ed68d14c033a']
+2021-12-15 19:33:45,429 - [WARN] - instrument_device - *** Reply buffer does not start with SYNC! *** [reply = b'30322073797374656d645b315d3a204c697374656e696e67206f6e204176616869206d444e532f444e532d534420537461636b2041637469766174696f6e20536f636b65742e0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000802ac300000000000000000000000000000000000000000000000000000000010000000000000080baf3ef00842ac30000000000000000000000000000000000d4c2af010000000000000000000000000000000000000000000000b500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ff0230400371']
+2021-12-15 19:33:46,529 - [INFO] - instrument_device - Flowrate=36.09 \u00b5L/s, Total Volume=396.97 \u00b5L, Total Air=28.33, Num pts=388, Elapsed time=39.90 secs
+2021-12-15 19:33:46,530 - [INFO] - bb_system - Setting new system state to '4'
+...
+Exception in thread Thread-1194:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/threading.py", line 917, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.7/threading.py", line 865, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/pi/bb3/bb3/bb3_runner.py", line 433, in thread_exec
+    exec(compiled_code, globals())
+  File "MCE_2NTF_1NTC.py", line 69, in <module>
+    self.menu_items = [
+  File "MCE_2NTF_1NTC.py", line 21, in cycle
+  File "/home/pi/bb3/bb3/runner_script.py", line 525, in chemistry_step
+    deliver_reagent(reag=reag, vol=vol, rate=rate)
+  File "/home/pi/bb3/bb3/runner_script.py", line 113, in deliver_reagent
+    add_air_gap=add_air_gap, is_dryrun=DRYRUN)
+  File "/home/pi/bb3/bb3/bb3_runner.py", line 315, in deliver_reagent_wash
+    wash_sipper=do_wash, add_air_gap=add_air_gap)
+  File "/home/pi/bb3/bb3/bb_system.py", line 578, in deliver_reagent_wash
+    self.wash_sipper(vol=750.0, asp_rate=50.0, disp_rate=200.0, air_on=False, hover_z=25.0)
+  File "/home/pi/bb3/bb3/bb_system.py", line 888, in wash_sipper
+    self.fill_pump(rate=asp_rate, use_port='INPUT')
+  File "/home/pi/bb3/bb3/bb_system.py", line 274, in fill_pump
+    vol_asp = pump.fill_pump(rate_in_ulsec=rate, use_port=use_port)
+  File "/home/pi/bb3/bb3/serial_pump.py", line 392, in fill_pump
+    net_vol = max(self.syringe_volume - self.get_current_fill_volume(), 0.0)
+  File "/home/pi/bb3/bb3/serial_pump.py", line 363, in get_current_fill_volume
+    cur_pos = self.get_absolute_pos()
+  File "/home/pi/bb3/bb3/serial_pump.py", line 170, in get_absolute_pos
+    abs_pos = int(datablock)  # Sometimes an empty datablock is returned, throwing a ValueError
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+
+^F^C2021-12-16 10:19:28,153 - [ERR ] - bb3_runner - Unexpected Exception!
+Traceback (most recent call last):
+  File "/home/pi/bb3/bb3/bb3_runner.py", line 1155, in start_runner_server
+    runner.run_server()
+  File "/home/pi/bb3/bb3/bb3_runner.py", line 1119, in run_server
+    msg = self.conn.recv()
+  File "/usr/lib/python3.7/multiprocessing/connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "/usr/lib/python3.7/multiprocessing/connection.py", line 407, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/lib/python3.7/multiprocessing/connection.py", line 379, in _recv
+    chunk = read(handle, remaining)
+KeyboardInterrupt
+Process bb3runner:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/pi/bb3/bb3/bb3_runner.py", line 1155, in start_runner_server
+    runner.run_server()
+  File "/home/pi/bb3/bb3/bb3_runner.py", line 1119, in run_server
+    msg = self.conn.recv()
+  File "/usr/lib/python3.7/multiprocessing/connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "/usr/lib/python3.7/multiprocessing/connection.py", line 407, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/lib/python3.7/multiprocessing/connection.py", line 379, in _recv
+    chunk = read(handle, remaining)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "bb3_uimain.py", line 575, in update_main_status
+    def update_main_status(self):
+KeyboardInterrupt
+Aborted
