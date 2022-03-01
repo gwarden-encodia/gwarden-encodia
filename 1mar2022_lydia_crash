@@ -1,0 +1,972 @@
+......
+........
+....
+2022-03-01 12:32:46,106 - [INFO] - instrument_device - Flowrate=51.02 µL/s, Total Volume=545.93 µL, Total Air=18.33, Num pts=164, Elapsed time=16.51 secs
+2022-03-01 12:32:46,158 - [INFO] - bb_system -  ** ASPIRATE AIR FROM BYPASS (208.0 µL @ 50.0 µL/s)**
+bytearray(b'\xff\x020`14160\x03c')
+bytearray(b'14160')
+2022-03-01 12:32:46,205 - [INFO] - instrument_device - --> ASPIRATE: 208.0 µL @ 50.0 µL/s to abs pos=19152
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:32:51,319 - [INFO] - instrument_device - Flowrate=50.57 µL/s, Total Volume=753.46 µL, Total Air=18.33, Num pts=215, Elapsed time=21.68 secs
+2022-03-01 12:32:51,370 - [INFO] - bb_system -  ** PUSH TO WASTE (50.0 µL @ 50.0 µL/s)**
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:32:52,429 - [INFO] - bb_system -  * Open Valve 'WASTE' @ A06, position=6
+bytearray(b'\xff\x020`19152\x03o')
+bytearray(b'19152')
+2022-03-01 12:32:52,477 - [INFO] - instrument_device - --> DISPENSE: 50.0 µL @ 50.0 µL/s to abs pos=17952
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:32:55,661 - [INFO] - bb_system -  * Open Valve 'CL1' @ A01, position=1
+2022-03-01 12:32:55,662 - [INFO] - bb_system -  ** DISPENSE TO BYPASS (Reagent='BWH' 500.0 µL @ 50.0 µL/s)**
+bytearray(b'\xff\x020`17952\x03i')
+bytearray(b'17952')
+2022-03-01 12:32:55,709 - [INFO] - instrument_device - --> DISPENSE: 500.0 µL @ 50.0 µL/s to abs pos=5952
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:33:06,874 - [INFO] - instrument_device - Flowrate=42.76 µL/s, Total Volume=508.80 µL, Total Air=21.67, Num pts=368, Elapsed time=37.28 secs
+2022-03-01 12:33:06,875 - [INFO] - bb_system - Setting new system state to '4'
+...
+bytearray(b'\xff\x020`5952\x03Z')
+bytearray(b'5952')
+bytearray(b'\xff\x020`5952\x03Z')
+bytearray(b'5952')
+2022-03-01 12:33:07,757 - [INFO] - instrument_device - --> ASPIRATE: 752.0 µL @ 50.0 µL/s to abs pos=24000
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:33:24,908 - [INFO] - bb_system -  * Open Valve 'OTTO' @ A03, position=3
+2022-03-01 12:33:24,909 - [INFO] - instrument_device - --> EMPTY: @ 200.0 µL/s
+bytearray(b'\xff\x020`24000\x03g')
+bytearray(b'24000')
+bytearray(b'\xff\x020`24000\x03g')
+bytearray(b'24000')
+2022-03-01 12:33:25,003 - [INFO] - instrument_device - --> DISPENSE: 1000.0 µL @ 200.0 µL/s to abs pos=0
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+...
+2022-03-01 12:33:43,048 - [INFO] - bb_system - *** ASPIRATE FROM INPUT (750.0 µL @ 50.0 µL/s) ***
+bytearray(b'\xff\x020`0\x03a')
+bytearray(b'0')
+2022-03-01 12:33:43,083 - [INFO] - instrument_device - --> ASPIRATE: 750.0 µL @ 50.0 µL/s to abs pos=18000
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:33:59,258 - [INFO] - bb_system -  * Open Valve 'OTTO' @ A03, position=3
+2022-03-01 12:33:59,259 - [INFO] - instrument_device - --> EMPTY: @ 200.0 µL/s
+bytearray(b'\xff\x020`18000\x03h')
+bytearray(b'18000')
+bytearray(b'\xff\x020`18000\x03h')
+bytearray(b'18000')
+2022-03-01 12:33:59,354 - [INFO] - instrument_device - --> DISPENSE: 750.0 µL @ 200.0 µL/s to abs pos=0
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+....
+2022-03-01 12:34:16,593 - [INFO] - bb_system -   * Close Valve 'WASH' @ WASH) * 
+bytearray(b'\xff\x020`0\x03a')
+bytearray(b'0')
+2022-03-01 12:34:16,634 - [INFO] - instrument_device - --> ASPIRATE: 40.0 µL @ 100.0 µL/s to abs pos=960
+bytearray(b'\xff\x020@\x03q')
+2022-03-01 12:34:16,681 - [INFO] - bb_system - Reagent 'BWH', label 'B0103', volume used 11550.0 µL air_gap=True 
+2022-03-01 12:34:16,682 - [INFO] - bb_system - Setting new system state to '1'
+2022-03-01 12:34:16,683 - [INFO] - bb3_runner - **** DELIVER REAGENT WASH (Reagent='BWH') ****
+2022-03-01 12:34:16,683 - [INFO] - bb_system - *** DELIVER REAGENT AND WASH TO CARTRIDGE (Reagent='BWH' )***
+2022-03-01 12:34:16,684 - [INFO] - bb_system - Setting new system state to '3'
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:34:16,715 - [INFO] - bb_system -  * Open Valve 'OTTO' @ A03, position=3
+........
+.......
+2022-03-01 12:34:20,126 - [INFO] - bb_system -  * Open Valve 'BWH' @ B0103, position=(107.73, 78.2, 59.0)
+bytearray(b'\xff\x020`960\x03n')
+bytearray(b'960')
+2022-03-01 12:34:20,217 - [INFO] - instrument_device - --> ASPIRATE: 550.0 µL @ 50.0 µL/s to abs pos=14160
+bytearray(b'\xff\x020@\x03q')
+2022-03-01 12:34:20,265 - [INFO] - bb_system -  ** ASPIRATE REAGENT FROM BYPASS (Reagent='BWH' 550.0 µL @ 50.0 µL/s)**
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+.......
+........
+....
+2022-03-01 12:34:36,785 - [INFO] - instrument_device - Flowrate=51.44 µL/s, Total Volume=555.60 µL, Total Air=18.33, Num pts=164, Elapsed time=16.51 secs
+2022-03-01 12:34:36,836 - [INFO] - bb_system -  ** ASPIRATE AIR FROM BYPASS (208.0 µL @ 50.0 µL/s)**
+bytearray(b'\xff\x020`14160\x03c')
+bytearray(b'14160')
+2022-03-01 12:34:36,873 - [INFO] - instrument_device - --> ASPIRATE: 208.0 µL @ 50.0 µL/s to abs pos=19152
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:34:41,987 - [INFO] - instrument_device - Flowrate=50.92 µL/s, Total Volume=763.80 µL, Total Air=18.33, Num pts=215, Elapsed time=21.78 secs
+2022-03-01 12:34:42,044 - [INFO] - bb_system -  ** PUSH TO WASTE (50.0 µL @ 50.0 µL/s)**
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:34:43,096 - [INFO] - bb_system -  * Open Valve 'WASTE' @ A06, position=6
+bytearray(b'\xff\x020`19152\x03o')
+bytearray(b'19152')
+2022-03-01 12:34:43,144 - [INFO] - instrument_device - --> DISPENSE: 50.0 µL @ 50.0 µL/s to abs pos=17952
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:34:46,328 - [INFO] - bb_system -  * Open Valve 'CL1' @ A01, position=1
+2022-03-01 12:34:46,329 - [INFO] - bb_system -  ** DISPENSE TO BYPASS (Reagent='BWH' 500.0 µL @ 50.0 µL/s)**
+bytearray(b'\xff\x020`17952\x03i')
+bytearray(b'17952')
+2022-03-01 12:34:46,376 - [INFO] - instrument_device - --> DISPENSE: 500.0 µL @ 50.0 µL/s to abs pos=5952
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:34:57,540 - [INFO] - instrument_device - Flowrate=43.64 µL/s, Total Volume=510.60 µL, Total Air=20.00, Num pts=368, Elapsed time=37.28 secs
+2022-03-01 12:34:57,542 - [INFO] - bb_system - Setting new system state to '4'
+...
+bytearray(b'\xff\x020`5952\x03Z')
+bytearray(b'5952')
+bytearray(b'\xff\x020`5952\x03Z')
+bytearray(b'5952')
+2022-03-01 12:34:58,424 - [INFO] - instrument_device - --> ASPIRATE: 752.0 µL @ 50.0 µL/s to abs pos=24000
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:35:15,574 - [INFO] - bb_system -  * Open Valve 'OTTO' @ A03, position=3
+2022-03-01 12:35:15,575 - [INFO] - instrument_device - --> EMPTY: @ 200.0 µL/s
+bytearray(b'\xff\x020`24000\x03g')
+bytearray(b'24000')
+bytearray(b'\xff\x020`24000\x03g')
+bytearray(b'24000')
+2022-03-01 12:35:15,670 - [INFO] - instrument_device - --> DISPENSE: 1000.0 µL @ 200.0 µL/s to abs pos=0
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+...
+2022-03-01 12:35:33,715 - [INFO] - bb_system - *** ASPIRATE FROM INPUT (750.0 µL @ 50.0 µL/s) ***
+bytearray(b'\xff\x020`0\x03a')
+bytearray(b'0')
+2022-03-01 12:35:33,749 - [INFO] - instrument_device - --> ASPIRATE: 750.0 µL @ 50.0 µL/s to abs pos=18000
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:35:49,925 - [INFO] - bb_system -  * Open Valve 'OTTO' @ A03, position=3
+2022-03-01 12:35:49,926 - [INFO] - instrument_device - --> EMPTY: @ 200.0 µL/s
+bytearray(b'\xff\x020`18000\x03h')
+bytearray(b'18000')
+bytearray(b'\xff\x020`18000\x03h')
+bytearray(b'18000')
+2022-03-01 12:35:50,021 - [INFO] - instrument_device - --> DISPENSE: 750.0 µL @ 200.0 µL/s to abs pos=0
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+....
+2022-03-01 12:36:07,258 - [INFO] - bb_system -   * Close Valve 'WASH' @ WASH) * 
+bytearray(b'\xff\x020`0\x03a')
+bytearray(b'0')
+2022-03-01 12:36:07,300 - [INFO] - instrument_device - --> ASPIRATE: 40.0 µL @ 100.0 µL/s to abs pos=960
+bytearray(b'\xff\x020@\x03q')
+2022-03-01 12:36:07,348 - [INFO] - bb_system - Reagent 'BWH', label 'B0103', volume used 12100.0 µL air_gap=True 
+2022-03-01 12:36:07,349 - [INFO] - bb_system - Setting new system state to '1'
+2022-03-01 12:36:07,350 - [INFO] - runner_script - ===| RUNSCRIPT STEP chemistry_step: 41 of 56|===
+2022-03-01 12:36:07,350 - [INFO] - runner_script - ===| RUNSCRIPT STEP Set Temperature: 41 of 56|===
+2022-03-01 12:36:07,351 - [INFO] - bb3_runner - **** SET CARTRIDGE TEMPERATURE ****
+2022-03-01 12:36:07,351 - [INFO] - bb_system - *** SET TEC channel=1 TEMPERATURE (Target= 50.0°C) ***
+2022-03-01 12:36:07,369 - [INFO] - instrument_device - Setting TEC to overshoot temperature=59.74888794064725
+2022-03-01 12:36:07,370 - [INFO] - instrument_device - Creating monitor_temp thread...
+2022-03-01 12:36:07,371 - [INFO] - instrument_device - Creating monitor_temp thread: <Thread(Thread-256, started daemon 2794452064)>
+2022-03-01 12:36:07,449 - [INFO] - bb_system - *** High ramp settings initiated ***
+2022-03-01 12:36:07,482 - [INFO] - runner_script - ===| RUNSCRIPT STEP wait_for_stable_temp: 42 of 56|===
+2022-03-01 12:36:07,514 - [INFO] - bb_system - Setting new system state to '5'
+2022-03-01 12:36:07,514 - [INFO] - bb_system -     --> checking temp is stable, temp data =  25.00,  25.00,  25.00,  25.00
+2022-03-01 12:36:07,515 - [INFO] - bb3_runner - WAIT for temperature to stabilize
+2022-03-01 12:36:07,530 - [INFO] - bb_system -     --> checking temp is stable, temp data =  25.00,  25.00,  25.00,  25.00
+2022-03-01 12:36:08,555 - [INFO] - bb3_runner - **** SET CARTRIDGE TEMPERATURE ****
+2022-03-01 12:36:17,561 - [INFO] - bb_system -     --> checking temp is stable, temp data =  25.80,  25.00,  25.00,  25.00
+2022-03-01 12:36:27,591 - [INFO] - bb_system -     --> checking temp is stable, temp data =  25.80,  25.00,  25.00,  25.00
+2022-03-01 12:36:37,622 - [INFO] - bb_system -     --> checking temp is stable, temp data =  28.08,  25.80,  25.00,  25.00
+2022-03-01 12:36:47,652 - [INFO] - bb_system -     --> checking temp is stable, temp data =  30.35,  28.08,  25.80,  25.00
+2022-03-01 12:36:57,683 - [INFO] - bb_system -     --> checking temp is stable, temp data =  30.35,  28.08,  25.80,  25.00
+2022-03-01 12:37:07,713 - [INFO] - bb_system -     --> checking temp is stable, temp data =  32.62,  30.35,  28.08,  25.80
+2022-03-01 12:37:17,743 - [INFO] - bb_system -     --> checking temp is stable, temp data =  34.87,  32.62,  30.35,  28.08
+2022-03-01 12:37:27,774 - [INFO] - bb_system -     --> checking temp is stable, temp data =  34.87,  32.62,  30.35,  28.08
+2022-03-01 12:37:37,804 - [INFO] - bb_system -     --> checking temp is stable, temp data =  37.14,  34.87,  32.62,  30.35
+2022-03-01 12:37:47,834 - [INFO] - bb_system -     --> checking temp is stable, temp data =  39.41,  37.14,  34.87,  32.62
+2022-03-01 12:37:57,864 - [INFO] - bb_system -     --> checking temp is stable, temp data =  39.41,  37.14,  34.87,  32.62
+2022-03-01 12:38:07,895 - [INFO] - bb_system -     --> checking temp is stable, temp data =  41.67,  39.41,  37.14,  34.87
+2022-03-01 12:38:17,925 - [INFO] - bb_system -     --> checking temp is stable, temp data =  43.94,  41.67,  39.41,  37.14
+2022-03-01 12:38:27,972 - [INFO] - bb_system -     --> checking temp is stable, temp data =  43.94,  41.67,  39.41,  37.14
+2022-03-01 12:38:38,002 - [INFO] - bb_system -     --> checking temp is stable, temp data =  46.21,  43.94,  41.67,  39.41
+2022-03-01 12:38:48,032 - [INFO] - bb_system -     --> checking temp is stable, temp data =  48.48,  46.21,  43.94,  41.67
+2022-03-01 12:38:58,063 - [INFO] - bb_system -     --> checking temp is stable, temp data =  48.48,  46.21,  43.94,  41.67
+2022-03-01 12:39:08,093 - [INFO] - bb_system -     --> checking temp is stable, temp data =  50.75,  48.48,  46.21,  43.94
+2022-03-01 12:39:18,124 - [INFO] - bb_system -     --> checking temp is stable, temp data =  53.02,  50.75,  48.48,  46.21
+2022-03-01 12:39:28,154 - [INFO] - bb_system -     --> checking temp is stable, temp data =  53.02,  50.75,  48.48,  46.21
+2022-03-01 12:39:38,184 - [INFO] - bb_system -     --> checking temp is stable, temp data =  55.28,  53.02,  50.75,  48.48
+2022-03-01 12:39:48,215 - [INFO] - bb_system -     --> checking temp is stable, temp data =  57.55,  55.28,  53.02,  50.75
+2022-03-01 12:39:58,245 - [INFO] - bb_system -     --> checking temp is stable, temp data =  57.55,  55.28,  53.02,  50.75
+2022-03-01 12:40:00,558 - [INFO] - instrument_device - monitor_overshoot thread <Thread(Thread-256, started daemon 2794452064)> exiting
+2022-03-01 12:40:08,276 - [INFO] - bb_system -     --> checking temp is stable, temp data =  59.81,  57.55,  55.28,  53.02
+2022-03-01 12:40:18,306 - [INFO] - bb_system -     --> checking temp is stable, temp data =  56.83,  59.81,  57.55,  55.28
+2022-03-01 12:40:28,336 - [INFO] - bb_system -     --> checking temp is stable, temp data =  56.83,  59.81,  57.55,  55.28
+2022-03-01 12:40:38,367 - [INFO] - bb_system -     --> checking temp is stable, temp data =  53.80,  56.83,  59.81,  57.55
+2022-03-01 12:40:48,397 - [INFO] - bb_system -     --> checking temp is stable, temp data =  50.77,  53.80,  56.83,  59.81
+2022-03-01 12:40:58,427 - [INFO] - bb_system -     --> checking temp is stable, temp data =  50.77,  53.80,  56.83,  59.81
+2022-03-01 12:41:08,458 - [INFO] - bb_system -     --> checking temp is stable, temp data =  49.99,  50.77,  53.80,  56.83
+2022-03-01 12:41:18,488 - [INFO] - bb_system -     --> checking temp is stable, temp data =  50.00,  49.99,  50.77,  53.80
+2022-03-01 12:41:28,519 - [INFO] - bb_system -     --> checking temp is stable, temp data =  50.00,  49.99,  50.77,  53.80
+2022-03-01 12:41:38,549 - [INFO] - bb_system -     --> checking temp is stable, temp data =  49.99,  50.00,  49.99,  50.77
+Waiting for temperature to stablize ................................. DONE
+2022-03-01 12:41:38,550 - [INFO] - runner_script - ===| RUNSCRIPT STEP Deliver Reagent 'PEW': 43 of 56|===
+2022-03-01 12:41:38,551 - [INFO] - bb3_runner - **** DELIVER REAGENT WASH (Reagent='PEW') ****
+2022-03-01 12:41:38,552 - [INFO] - bb_system - *** DELIVER REAGENT AND WASH TO CARTRIDGE (Reagent='PEW' )***
+2022-03-01 12:41:38,552 - [INFO] - bb_system - Setting new system state to '3'
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:41:38,581 - [INFO] - bb_system -  * Open Valve 'OTTO' @ A03, position=3
+.......
+.......
+2022-03-01 12:41:41,793 - [INFO] - bb_system -  * Open Valve 'PEW' @ B0104, position=(72.6, 78.0, 59.0)
+bytearray(b'\xff\x020`960\x03n')
+bytearray(b'960')
+2022-03-01 12:41:41,877 - [INFO] - instrument_device - --> ASPIRATE: 550.0 µL @ 50.0 µL/s to abs pos=14160
+bytearray(b'\xff\x020@\x03q')
+2022-03-01 12:41:41,924 - [INFO] - bb_system -  ** ASPIRATE REAGENT FROM BYPASS (Reagent='PEW' 550.0 µL @ 50.0 µL/s)**
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+.......
+.......
+....
+2022-03-01 12:41:58,256 - [INFO] - instrument_device - Flowrate=49.98 µL/s, Total Volume=544.75 µL, Total Air=20.00, Num pts=162, Elapsed time=16.31 secs
+2022-03-01 12:41:58,307 - [INFO] - bb_system -  ** ASPIRATE AIR FROM BYPASS (208.0 µL @ 50.0 µL/s)**
+bytearray(b'\xff\x020`14160\x03c')
+bytearray(b'14160')
+2022-03-01 12:41:58,355 - [INFO] - instrument_device - --> ASPIRATE: 208.0 µL @ 50.0 µL/s to abs pos=19152
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:42:03,471 - [INFO] - instrument_device - Flowrate=46.64 µL/s, Total Volume=704.23 µL, Total Air=20.00, Num pts=214, Elapsed time=21.58 secs
+2022-03-01 12:42:03,523 - [INFO] - bb_system -  ** PUSH TO WASTE (50.0 µL @ 50.0 µL/s)**
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:42:04,579 - [INFO] - bb_system -  * Open Valve 'WASTE' @ A06, position=6
+bytearray(b'\xff\x020`19152\x03o')
+bytearray(b'19152')
+2022-03-01 12:42:04,627 - [INFO] - instrument_device - --> DISPENSE: 50.0 µL @ 50.0 µL/s to abs pos=17952
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:42:07,811 - [INFO] - bb_system -  * Open Valve 'CL1' @ A01, position=1
+2022-03-01 12:42:07,812 - [INFO] - bb_system -  ** DISPENSE TO BYPASS (Reagent='PEW' 500.0 µL @ 50.0 µL/s)**
+bytearray(b'\xff\x020`17952\x03i')
+bytearray(b'17952')
+2022-03-01 12:42:07,859 - [INFO] - instrument_device - --> DISPENSE: 500.0 µL @ 50.0 µL/s to abs pos=5952
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:42:19,028 - [INFO] - instrument_device - Flowrate=34.97 µL/s, Total Volume=409.17 µL, Total Air=23.33, Num pts=367, Elapsed time=37.09 secs
+2022-03-01 12:42:19,029 - [INFO] - bb_system - Setting new system state to '4'
+...
+bytearray(b'\xff\x020`5952\x03Z')
+bytearray(b'5952')
+bytearray(b'\xff\x020`5952\x03Z')
+bytearray(b'5952')
+2022-03-01 12:42:19,907 - [INFO] - instrument_device - --> ASPIRATE: 752.0 µL @ 50.0 µL/s to abs pos=24000
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:42:37,074 - [INFO] - bb_system -  * Open Valve 'OTTO' @ A03, position=3
+2022-03-01 12:42:37,075 - [INFO] - instrument_device - --> EMPTY: @ 200.0 µL/s
+bytearray(b'\xff\x020`24000\x03g')
+bytearray(b'24000')
+bytearray(b'\xff\x020`24000\x03g')
+bytearray(b'24000')
+2022-03-01 12:42:37,170 - [INFO] - instrument_device - --> DISPENSE: 1000.0 µL @ 200.0 µL/s to abs pos=0
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+...
+2022-03-01 12:42:55,214 - [INFO] - bb_system - *** ASPIRATE FROM INPUT (750.0 µL @ 50.0 µL/s) ***
+bytearray(b'\xff\x020`0\x03a')
+bytearray(b'0')
+2022-03-01 12:42:55,250 - [INFO] - instrument_device - --> ASPIRATE: 750.0 µL @ 50.0 µL/s to abs pos=18000
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:43:11,424 - [INFO] - bb_system -  * Open Valve 'OTTO' @ A03, position=3
+2022-03-01 12:43:11,425 - [INFO] - instrument_device - --> EMPTY: @ 200.0 µL/s
+bytearray(b'\xff\x020`18000\x03h')
+bytearray(b'18000')
+bytearray(b'\xff\x020`18000\x03h')
+bytearray(b'18000')
+2022-03-01 12:43:11,520 - [INFO] - instrument_device - --> DISPENSE: 750.0 µL @ 200.0 µL/s to abs pos=0
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+....
+2022-03-01 12:43:28,758 - [INFO] - bb_system -   * Close Valve 'WASH' @ WASH) * 
+bytearray(b'\xff\x020`0\x03a')
+bytearray(b'0')
+2022-03-01 12:43:28,799 - [INFO] - instrument_device - --> ASPIRATE: 40.0 µL @ 100.0 µL/s to abs pos=960
+bytearray(b'\xff\x020@\x03q')
+2022-03-01 12:43:28,847 - [INFO] - bb_system - Reagent 'PEW', label 'B0104', volume used 5500.0 µL air_gap=True 
+2022-03-01 12:43:28,848 - [INFO] - bb_system - Setting new system state to '1'
+2022-03-01 12:43:28,848 - [INFO] - runner_script - ===| RUNSCRIPT STEP Deliver Reagent 'PEW': 44 of 56|===
+2022-03-01 12:43:28,848 - [INFO] - bb3_runner - **** DELIVER REAGENT WASH (Reagent='PEW') ****
+2022-03-01 12:43:28,849 - [INFO] - bb_system - *** DELIVER REAGENT AND WASH TO CARTRIDGE (Reagent='PEW' )***
+2022-03-01 12:43:28,849 - [INFO] - bb_system - Setting new system state to '3'
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:43:28,879 - [INFO] - bb_system -  * Open Valve 'OTTO' @ A03, position=3
+.......
+.......
+2022-03-01 12:43:32,090 - [INFO] - bb_system -  * Open Valve 'PEW' @ B0104, position=(72.6, 78.0, 59.0)
+bytearray(b'\xff\x020`960\x03n')
+bytearray(b'960')
+2022-03-01 12:43:32,176 - [INFO] - instrument_device - --> ASPIRATE: 550.0 µL @ 50.0 µL/s to abs pos=14160
+bytearray(b'\xff\x020@\x03q')
+2022-03-01 12:43:32,223 - [INFO] - bb_system -  ** ASPIRATE REAGENT FROM BYPASS (Reagent='PEW' 550.0 µL @ 50.0 µL/s)**
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+.......
+.......
+....
+2022-03-01 12:43:48,547 - [INFO] - instrument_device - Flowrate=46.75 µL/s, Total Volume=509.56 µL, Total Air=18.33, Num pts=162, Elapsed time=16.31 secs
+2022-03-01 12:43:48,598 - [INFO] - bb_system -  ** ASPIRATE AIR FROM BYPASS (208.0 µL @ 50.0 µL/s)**
+bytearray(b'\xff\x020`14160\x03c')
+bytearray(b'14160')
+2022-03-01 12:43:48,638 - [INFO] - instrument_device - --> ASPIRATE: 208.0 µL @ 50.0 µL/s to abs pos=19152
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:43:53,756 - [INFO] - instrument_device - Flowrate=44.26 µL/s, Total Volume=668.35 µL, Total Air=18.33, Num pts=213, Elapsed time=21.48 secs
+2022-03-01 12:43:53,807 - [INFO] - bb_system -  ** PUSH TO WASTE (50.0 µL @ 50.0 µL/s)**
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:43:54,862 - [INFO] - bb_system -  * Open Valve 'WASTE' @ A06, position=6
+bytearray(b'\xff\x020`19152\x03o')
+bytearray(b'19152')
+2022-03-01 12:43:54,910 - [INFO] - instrument_device - --> DISPENSE: 50.0 µL @ 50.0 µL/s to abs pos=17952
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:43:58,094 - [INFO] - bb_system -  * Open Valve 'CL1' @ A01, position=1
+2022-03-01 12:43:58,095 - [INFO] - bb_system -  ** DISPENSE TO BYPASS (Reagent='PEW' 500.0 µL @ 50.0 µL/s)**
+bytearray(b'\xff\x020`17952\x03i')
+bytearray(b'17952')
+2022-03-01 12:43:58,142 - [INFO] - instrument_device - --> DISPENSE: 500.0 µL @ 50.0 µL/s to abs pos=5952
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:44:09,308 - [INFO] - instrument_device - Flowrate=35.66 µL/s, Total Volume=413.68 µL, Total Air=20.00, Num pts=367, Elapsed time=37.09 secs
+2022-03-01 12:44:09,308 - [INFO] - bb_system - Setting new system state to '4'
+...
+bytearray(b'\xff\x020`5952\x03Z')
+bytearray(b'5952')
+bytearray(b'\xff\x020`5952\x03Z')
+bytearray(b'5952')
+2022-03-01 12:44:10,190 - [INFO] - instrument_device - --> ASPIRATE: 752.0 µL @ 50.0 µL/s to abs pos=24000
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:44:27,341 - [INFO] - bb_system -  * Open Valve 'OTTO' @ A03, position=3
+2022-03-01 12:44:27,341 - [INFO] - instrument_device - --> EMPTY: @ 200.0 µL/s
+bytearray(b'\xff\x020`24000\x03g')
+bytearray(b'24000')
+bytearray(b'\xff\x020`24000\x03g')
+bytearray(b'24000')
+2022-03-01 12:44:27,436 - [INFO] - instrument_device - --> DISPENSE: 1000.0 µL @ 200.0 µL/s to abs pos=0
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+...
+2022-03-01 12:44:45,480 - [INFO] - bb_system - *** ASPIRATE FROM INPUT (750.0 µL @ 50.0 µL/s) ***
+bytearray(b'\xff\x020`0\x03a')
+bytearray(b'0')
+2022-03-01 12:44:45,516 - [INFO] - instrument_device - --> ASPIRATE: 750.0 µL @ 50.0 µL/s to abs pos=18000
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:45:01,691 - [INFO] - bb_system -  * Open Valve 'OTTO' @ A03, position=3
+2022-03-01 12:45:01,692 - [INFO] - instrument_device - --> EMPTY: @ 200.0 µL/s
+bytearray(b'\xff\x020`18000\x03h')
+bytearray(b'18000')
+bytearray(b'\xff\x020`18000\x03h')
+bytearray(b'18000')
+2022-03-01 12:45:01,787 - [INFO] - instrument_device - --> DISPENSE: 750.0 µL @ 200.0 µL/s to abs pos=0
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+....
+2022-03-01 12:45:19,023 - [INFO] - bb_system -   * Close Valve 'WASH' @ WASH) * 
+bytearray(b'\xff\x020`0\x03a')
+bytearray(b'0')
+2022-03-01 12:45:19,065 - [INFO] - instrument_device - --> ASPIRATE: 40.0 µL @ 100.0 µL/s to abs pos=960
+bytearray(b'\xff\x020@\x03q')
+2022-03-01 12:45:19,114 - [INFO] - bb_system - Reagent 'PEW', label 'B0104', volume used 6050.0 µL air_gap=True 
+2022-03-01 12:45:19,115 - [INFO] - bb_system - Setting new system state to '1'
+2022-03-01 12:45:19,115 - [INFO] - runner_script - ===| RUNSCRIPT STEP wait_for_stable_temp: 45 of 56|===
+2022-03-01 12:45:19,153 - [INFO] - bb_system - Setting new system state to '5'
+2022-03-01 12:45:19,154 - [INFO] - bb_system -     --> checking temp is stable, temp data =  50.00,  50.00,  50.00,  50.00
+2022-03-01 12:45:19,169 - [INFO] - bb_system -     --> checking temp is stable, temp data =  50.00,  50.00,  50.00,  50.00
+ DONE
+2022-03-01 12:45:19,170 - [INFO] - runner_script - ===| RUNSCRIPT STEP Deliver Reagent & Incubate 'PEW': 46 of 56|===
+2022-03-01 12:45:19,170 - [INFO] - bb3_runner - **** SET CARTRIDGE TEMPERATURE ****
+2022-03-01 12:45:19,217 - [INFO] - bb_system -     --> checking temp is stable, temp data =  50.00,  50.00,  50.00,  50.00
+2022-03-01 12:45:19,233 - [INFO] - bb_system -     --> checking temp is stable, temp data =  50.00,  50.00,  50.00,  50.00
+ DONE
+2022-03-01 12:45:19,233 - [INFO] - bb3_runner - Temperature Stable
+2022-03-01 12:45:19,234 - [INFO] - bb3_runner - **** DELIVER REAGENT WASH (Reagent='PEW') ****
+2022-03-01 12:45:19,234 - [INFO] - bb_system - *** DELIVER REAGENT AND WASH TO CARTRIDGE (Reagent='PEW' )***
+2022-03-01 12:45:19,234 - [INFO] - bb_system - Setting new system state to '3'
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:45:19,258 - [INFO] - bb_system -  * Open Valve 'OTTO' @ A03, position=3
+.......
+.......
+2022-03-01 12:45:22,470 - [INFO] - bb_system -  * Open Valve 'PEW' @ B0104, position=(72.6, 78.0, 59.0)
+bytearray(b'\xff\x020`960\x03n')
+bytearray(b'960')
+2022-03-01 12:45:22,554 - [INFO] - instrument_device - --> ASPIRATE: 550.0 µL @ 50.0 µL/s to abs pos=14160
+bytearray(b'\xff\x020@\x03q')
+2022-03-01 12:45:22,602 - [INFO] - bb_system -  ** ASPIRATE REAGENT FROM BYPASS (Reagent='PEW' 550.0 µL @ 50.0 µL/s)**
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+.......
+.......
+....
+2022-03-01 12:45:38,937 - [INFO] - instrument_device - Flowrate=46.63 µL/s, Total Volume=508.26 µL, Total Air=20.00, Num pts=162, Elapsed time=16.31 secs
+2022-03-01 12:45:38,988 - [INFO] - bb_system -  ** ASPIRATE AIR FROM BYPASS (208.0 µL @ 50.0 µL/s)**
+bytearray(b'\xff\x020`14160\x03c')
+bytearray(b'14160')
+2022-03-01 12:45:39,033 - [INFO] - instrument_device - --> ASPIRATE: 208.0 µL @ 50.0 µL/s to abs pos=19152
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:45:44,158 - [INFO] - instrument_device - Flowrate=44.18 µL/s, Total Volume=667.16 µL, Total Air=20.00, Num pts=213, Elapsed time=21.57 secs
+2022-03-01 12:45:44,213 - [INFO] - bb_system -  ** PUSH TO WASTE (50.0 µL @ 50.0 µL/s)**
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:45:45,273 - [INFO] - bb_system -  * Open Valve 'WASTE' @ A06, position=6
+bytearray(b'\xff\x020`19152\x03o')
+bytearray(b'19152')
+2022-03-01 12:45:45,321 - [INFO] - instrument_device - --> DISPENSE: 50.0 µL @ 50.0 µL/s to abs pos=17952
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:45:48,505 - [INFO] - bb_system -  * Open Valve 'CL1' @ A01, position=1
+2022-03-01 12:45:48,506 - [INFO] - bb_system -  ** DISPENSE TO BYPASS (Reagent='PEW' 500.0 µL @ 50.0 µL/s)**
+bytearray(b'\xff\x020`17952\x03i')
+bytearray(b'17952')
+2022-03-01 12:45:48,552 - [INFO] - instrument_device - --> DISPENSE: 500.0 µL @ 50.0 µL/s to abs pos=5952
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:45:59,726 - [INFO] - instrument_device - Flowrate=35.42 µL/s, Total Volume=407.32 µL, Total Air=21.67, Num pts=367, Elapsed time=37.17 secs
+2022-03-01 12:45:59,727 - [INFO] - bb_system - Setting new system state to '4'
+...
+bytearray(b'\xff\x020`5952\x03Z')
+bytearray(b'5952')
+bytearray(b'\xff\x020`5952\x03Z')
+bytearray(b'5952')
+2022-03-01 12:46:00,616 - [INFO] - instrument_device - --> ASPIRATE: 752.0 µL @ 50.0 µL/s to abs pos=24000
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:46:17,768 - [INFO] - bb_system -  * Open Valve 'OTTO' @ A03, position=3
+2022-03-01 12:46:17,769 - [INFO] - instrument_device - --> EMPTY: @ 200.0 µL/s
+bytearray(b'\xff\x020`24000\x03g')
+bytearray(b'24000')
+bytearray(b'\xff\x020`24000\x03g')
+bytearray(b'24000')
+2022-03-01 12:46:17,864 - [INFO] - instrument_device - --> DISPENSE: 1000.0 µL @ 200.0 µL/s to abs pos=0
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+...
+2022-03-01 12:46:35,907 - [INFO] - bb_system - *** ASPIRATE FROM INPUT (750.0 µL @ 50.0 µL/s) ***
+bytearray(b'\xff\x020`0\x03a')
+bytearray(b'0')
+2022-03-01 12:46:35,943 - [INFO] - instrument_device - --> ASPIRATE: 750.0 µL @ 50.0 µL/s to abs pos=18000
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:46:52,118 - [INFO] - bb_system -  * Open Valve 'OTTO' @ A03, position=3
+2022-03-01 12:46:52,119 - [INFO] - instrument_device - --> EMPTY: @ 200.0 µL/s
+bytearray(b'\xff\x020`18000\x03h')
+bytearray(b'18000')
+bytearray(b'\xff\x020`18000\x03h')
+bytearray(b'18000')
+2022-03-01 12:46:52,214 - [INFO] - instrument_device - --> DISPENSE: 750.0 µL @ 200.0 µL/s to abs pos=0
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+....
+2022-03-01 12:47:09,467 - [INFO] - bb_system -   * Close Valve 'WASH' @ WASH) * 
+bytearray(b'\xff\x020`0\x03a')
+bytearray(b'0')
+2022-03-01 12:47:09,509 - [INFO] - instrument_device - --> ASPIRATE: 40.0 µL @ 100.0 µL/s to abs pos=960
+bytearray(b'\xff\x020@\x03q')
+2022-03-01 12:47:09,557 - [INFO] - bb_system - Reagent 'PEW', label 'B0104', volume used 6600.0 µL air_gap=True 
+2022-03-01 12:47:09,558 - [INFO] - bb_system - Setting new system state to '1'
+2022-03-01 12:47:09,559 - [INFO] - bb_system - **** INCUBATE (7.0 mins) ****
+2022-03-01 12:47:09,559 - [INFO] - bb_system - Setting new system state to '6'
+Incubating: |██████████████████████████████████████████████████| 100.0% Complete
+2022-03-01 12:54:09,875 - [INFO] - runner_script - ===| RUNSCRIPT STEP chemistry_wash: 48 of 56|===
+2022-03-01 12:54:09,876 - [INFO] - runner_script - ===| RUNSCRIPT STEP Set Temperature: 48 of 56|===
+2022-03-01 12:54:09,877 - [INFO] - bb3_runner - **** SET CARTRIDGE TEMPERATURE ****
+2022-03-01 12:54:09,878 - [INFO] - bb_system - *** SET TEC channel=1 TEMPERATURE (Target= 25.0°C) ***
+2022-03-01 12:54:09,934 - [INFO] - bb_system - *** Low ramp settings initiated ***
+2022-03-01 12:54:09,982 - [INFO] - runner_script - ===| RUNSCRIPT STEP wait_for_stable_temp: 49 of 56|===
+2022-03-01 12:54:10,015 - [INFO] - bb_system - Setting new system state to '5'
+2022-03-01 12:54:10,016 - [INFO] - bb_system -     --> checking temp is stable, temp data =  50.00,  50.00,  50.00,  50.00
+2022-03-01 12:54:10,017 - [INFO] - bb3_runner - WAIT for temperature to stabilize
+2022-03-01 12:54:10,029 - [INFO] - bb_system -     --> checking temp is stable, temp data =  50.00,  50.00,  50.00,  50.00
+2022-03-01 12:54:13,555 - [INFO] - bb3_runner - **** SET CARTRIDGE TEMPERATURE ****
+2022-03-01 12:54:20,061 - [INFO] - bb_system -     --> checking temp is stable, temp data =  50.00,  50.00,  50.00,  50.00
+2022-03-01 12:54:30,091 - [INFO] - bb_system -     --> checking temp is stable, temp data =  48.00,  50.00,  50.00,  50.00
+2022-03-01 12:54:40,121 - [INFO] - bb_system -     --> checking temp is stable, temp data =  44.98,  48.00,  50.00,  50.00
+2022-03-01 12:54:50,152 - [INFO] - bb_system -     --> checking temp is stable, temp data =  44.98,  48.00,  50.00,  50.00
+2022-03-01 12:55:00,182 - [INFO] - bb_system -     --> checking temp is stable, temp data =  41.96,  44.98,  48.00,  50.00
+2022-03-01 12:55:10,212 - [INFO] - bb_system -     --> checking temp is stable, temp data =  38.93,  41.96,  44.98,  48.00
+2022-03-01 12:55:20,243 - [INFO] - bb_system -     --> checking temp is stable, temp data =  38.93,  41.96,  44.98,  48.00
+2022-03-01 12:55:30,273 - [INFO] - bb_system -     --> checking temp is stable, temp data =  35.91,  38.93,  41.96,  44.98
+2022-03-01 12:55:40,304 - [INFO] - bb_system -     --> checking temp is stable, temp data =  32.89,  35.91,  38.93,  41.96
+2022-03-01 12:55:50,334 - [INFO] - bb_system -     --> checking temp is stable, temp data =  32.89,  35.91,  38.93,  41.96
+2022-03-01 12:56:00,365 - [INFO] - bb_system -     --> checking temp is stable, temp data =  29.95,  32.89,  35.91,  38.93
+2022-03-01 12:56:10,395 - [INFO] - bb_system -     --> checking temp is stable, temp data =  27.94,  29.95,  32.89,  35.91
+2022-03-01 12:56:20,425 - [INFO] - bb_system -     --> checking temp is stable, temp data =  27.94,  29.95,  32.89,  35.91
+2022-03-01 12:56:30,456 - [INFO] - bb_system -     --> checking temp is stable, temp data =  26.39,  27.94,  29.95,  32.89
+Waiting for temperature to stablize .............. DONE
+2022-03-01 12:56:30,457 - [INFO] - runner_script - ===| RUNSCRIPT STEP Deliver Reagent 'WATER': 50 of 56|===
+2022-03-01 12:56:30,458 - [INFO] - bb3_runner - **** DELIVER REAGENT WASH (Reagent='WATER') ****
+2022-03-01 12:56:30,459 - [INFO] - bb_system - *** DELIVER REAGENT AND WASH TO CARTRIDGE (Reagent='WATER' )***
+2022-03-01 12:56:30,459 - [INFO] - bb_system - Setting new system state to '3'
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:56:30,490 - [INFO] - bb_system -  * Open Valve 'OTTO' @ A03, position=3
+.........
+.......
+2022-03-01 12:56:34,106 - [INFO] - bb_system -  * Open Valve 'WATER' @ B0201, position=(177.6, 113.4, 59.0)
+bytearray(b'\xff\x020`960\x03n')
+bytearray(b'960')
+2022-03-01 12:56:34,202 - [INFO] - instrument_device - --> ASPIRATE: 550.0 µL @ 50.0 µL/s to abs pos=14160
+bytearray(b'\xff\x020@\x03q')
+2022-03-01 12:56:34,250 - [INFO] - bb_system -  ** ASPIRATE REAGENT FROM BYPASS (Reagent='WATER' 550.0 µL @ 50.0 µL/s)**
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+.......
+.........
+....
+2022-03-01 12:56:50,980 - [INFO] - instrument_device - Flowrate=54.55 µL/s, Total Volume=600.01 µL, Total Air=18.33, Num pts=166, Elapsed time=16.72 secs
+2022-03-01 12:56:51,031 - [INFO] - bb_system -  ** ASPIRATE AIR FROM BYPASS (208.0 µL @ 50.0 µL/s)**
+bytearray(b'\xff\x020`14160\x03c')
+bytearray(b'14160')
+2022-03-01 12:56:51,066 - [INFO] - instrument_device - --> ASPIRATE: 208.0 µL @ 50.0 µL/s to abs pos=19152
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:56:56,183 - [INFO] - instrument_device - Flowrate=53.41 µL/s, Total Volume=811.91 µL, Total Air=18.33, Num pts=217, Elapsed time=21.98 secs
+2022-03-01 12:56:56,236 - [INFO] - bb_system -  ** PUSH TO WASTE (50.0 µL @ 50.0 µL/s)**
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:56:57,289 - [INFO] - bb_system -  * Open Valve 'WASTE' @ A06, position=6
+bytearray(b'\xff\x020`19152\x03o')
+bytearray(b'19152')
+2022-03-01 12:56:57,337 - [INFO] - instrument_device - --> DISPENSE: 50.0 µL @ 50.0 µL/s to abs pos=17952
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:57:00,521 - [INFO] - bb_system -  * Open Valve 'CL1' @ A01, position=1
+2022-03-01 12:57:00,522 - [INFO] - bb_system -  ** DISPENSE TO BYPASS (Reagent='WATER' 500.0 µL @ 50.0 µL/s)**
+bytearray(b'\xff\x020`17952\x03i')
+bytearray(b'17952')
+2022-03-01 12:57:00,569 - [INFO] - instrument_device - --> DISPENSE: 500.0 µL @ 50.0 µL/s to abs pos=5952
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:57:11,739 - [INFO] - instrument_device - Flowrate=43.01 µL/s, Total Volume=520.38 µL, Total Air=18.33, Num pts=370, Elapsed time=37.48 secs
+2022-03-01 12:57:11,739 - [INFO] - bb_system - Setting new system state to '4'
+...
+bytearray(b'\xff\x020`5952\x03Z')
+bytearray(b'5952')
+bytearray(b'\xff\x020`5952\x03Z')
+bytearray(b'5952')
+2022-03-01 12:57:12,632 - [INFO] - instrument_device - --> ASPIRATE: 752.0 µL @ 50.0 µL/s to abs pos=24000
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:57:29,783 - [INFO] - bb_system -  * Open Valve 'OTTO' @ A03, position=3
+2022-03-01 12:57:29,784 - [INFO] - instrument_device - --> EMPTY: @ 200.0 µL/s
+bytearray(b'\xff\x020`24000\x03g')
+bytearray(b'24000')
+bytearray(b'\xff\x020`24000\x03g')
+bytearray(b'24000')
+2022-03-01 12:57:29,880 - [INFO] - instrument_device - --> DISPENSE: 1000.0 µL @ 200.0 µL/s to abs pos=0
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+...
+2022-03-01 12:57:47,924 - [INFO] - bb_system - *** ASPIRATE FROM INPUT (750.0 µL @ 50.0 µL/s) ***
+bytearray(b'\xff\x020`0\x03a')
+bytearray(b'0')
+2022-03-01 12:57:47,959 - [INFO] - instrument_device - --> ASPIRATE: 750.0 µL @ 50.0 µL/s to abs pos=18000
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:58:04,134 - [INFO] - bb_system -  * Open Valve 'OTTO' @ A03, position=3
+2022-03-01 12:58:04,135 - [INFO] - instrument_device - --> EMPTY: @ 200.0 µL/s
+bytearray(b'\xff\x020`18000\x03h')
+bytearray(b'18000')
+bytearray(b'\xff\x020`18000\x03h')
+bytearray(b'18000')
+2022-03-01 12:58:04,230 - [INFO] - instrument_device - --> DISPENSE: 750.0 µL @ 200.0 µL/s to abs pos=0
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+....
+2022-03-01 12:58:21,466 - [INFO] - bb_system -   * Close Valve 'WASH' @ WASH) * 
+bytearray(b'\xff\x020`0\x03a')
+bytearray(b'0')
+2022-03-01 12:58:21,509 - [INFO] - instrument_device - --> ASPIRATE: 40.0 µL @ 100.0 µL/s to abs pos=960
+bytearray(b'\xff\x020@\x03q')
+2022-03-01 12:58:21,557 - [INFO] - bb_system - Reagent 'WATER', label 'B0201', volume used 21450.0 µL air_gap=True 
+2022-03-01 12:58:21,558 - [INFO] - bb_system - Setting new system state to '1'
+2022-03-01 12:58:21,559 - [INFO] - runner_script - ===| RUNSCRIPT STEP Deliver Reagent 'WATER': 51 of 56|===
+2022-03-01 12:58:21,559 - [INFO] - bb3_runner - **** DELIVER REAGENT WASH (Reagent='WATER') ****
+2022-03-01 12:58:21,560 - [INFO] - bb_system - *** DELIVER REAGENT AND WASH TO CARTRIDGE (Reagent='WATER' )***
+2022-03-01 12:58:21,560 - [INFO] - bb_system - Setting new system state to '3'
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:58:21,589 - [INFO] - bb_system -  * Open Valve 'OTTO' @ A03, position=3
+.........
+.......
+2022-03-01 12:58:25,201 - [INFO] - bb_system -  * Open Valve 'WATER' @ B0201, position=(177.6, 113.4, 59.0)
+bytearray(b'\xff\x020`960\x03n')
+bytearray(b'960')
+2022-03-01 12:58:25,285 - [INFO] - instrument_device - --> ASPIRATE: 550.0 µL @ 50.0 µL/s to abs pos=14160
+bytearray(b'\xff\x020@\x03q')
+2022-03-01 12:58:25,333 - [INFO] - bb_system -  ** ASPIRATE REAGENT FROM BYPASS (Reagent='WATER' 550.0 µL @ 50.0 µL/s)**
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+.......
+.........
+....
+2022-03-01 12:58:42,057 - [INFO] - instrument_device - Flowrate=48.80 µL/s, Total Volume=531.90 µL, Total Air=16.67, Num pts=166, Elapsed time=16.72 secs
+2022-03-01 12:58:42,108 - [INFO] - bb_system -  ** ASPIRATE AIR FROM BYPASS (208.0 µL @ 50.0 µL/s)**
+bytearray(b'\xff\x020`14160\x03c')
+bytearray(b'14160')
+2022-03-01 12:58:42,149 - [INFO] - instrument_device - --> ASPIRATE: 208.0 µL @ 50.0 µL/s to abs pos=19152
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:58:47,268 - [INFO] - instrument_device - Flowrate=49.24 µL/s, Total Volume=743.58 µL, Total Air=16.67, Num pts=217, Elapsed time=21.88 secs
+2022-03-01 12:58:47,323 - [INFO] - bb_system -  ** PUSH TO WASTE (50.0 µL @ 50.0 µL/s)**
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:58:48,372 - [INFO] - bb_system -  * Open Valve 'WASTE' @ A06, position=6
+bytearray(b'\xff\x020`19152\x03o')
+bytearray(b'19152')
+2022-03-01 12:58:48,420 - [INFO] - instrument_device - --> DISPENSE: 50.0 µL @ 50.0 µL/s to abs pos=17952
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:58:51,604 - [INFO] - bb_system -  * Open Valve 'CL1' @ A01, position=1
+2022-03-01 12:58:51,604 - [INFO] - bb_system -  ** DISPENSE TO BYPASS (Reagent='WATER' 500.0 µL @ 50.0 µL/s)**
+bytearray(b'\xff\x020`17952\x03i')
+bytearray(b'17952')
+2022-03-01 12:58:51,652 - [INFO] - instrument_device - --> DISPENSE: 500.0 µL @ 50.0 µL/s to abs pos=5952
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:59:02,821 - [INFO] - instrument_device - Flowrate=40.79 µL/s, Total Volume=464.95 µL, Total Air=18.33, Num pts=370, Elapsed time=37.48 secs
+2022-03-01 12:59:02,822 - [INFO] - bb_system - Setting new system state to '4'
+...
+bytearray(b'\xff\x020`5952\x03Z')
+bytearray(b'5952')
+bytearray(b'\xff\x020`5952\x03Z')
+bytearray(b'5952')
+2022-03-01 12:59:03,699 - [INFO] - instrument_device - --> ASPIRATE: 752.0 µL @ 50.0 µL/s to abs pos=24000
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:59:20,852 - [INFO] - bb_system -  * Open Valve 'OTTO' @ A03, position=3
+2022-03-01 12:59:20,853 - [INFO] - instrument_device - --> EMPTY: @ 200.0 µL/s
+bytearray(b'\xff\x020`24000\x03g')
+bytearray(b'24000')
+bytearray(b'\xff\x020`24000\x03g')
+bytearray(b'24000')
+2022-03-01 12:59:20,946 - [INFO] - instrument_device - --> DISPENSE: 1000.0 µL @ 200.0 µL/s to abs pos=0
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+...
+2022-03-01 12:59:38,991 - [INFO] - bb_system - *** ASPIRATE FROM INPUT (750.0 µL @ 50.0 µL/s) ***
+bytearray(b'\xff\x020`0\x03a')
+bytearray(b'0')
+2022-03-01 12:59:39,025 - [INFO] - instrument_device - --> ASPIRATE: 750.0 µL @ 50.0 µL/s to abs pos=18000
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 12:59:55,201 - [INFO] - bb_system -  * Open Valve 'OTTO' @ A03, position=3
+2022-03-01 12:59:55,202 - [INFO] - instrument_device - --> EMPTY: @ 200.0 µL/s
+bytearray(b'\xff\x020`18000\x03h')
+bytearray(b'18000')
+bytearray(b'\xff\x020`18000\x03h')
+bytearray(b'18000')
+2022-03-01 12:59:55,296 - [INFO] - instrument_device - --> DISPENSE: 750.0 µL @ 200.0 µL/s to abs pos=0
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+....
+2022-03-01 13:00:12,532 - [INFO] - bb_system -   * Close Valve 'WASH' @ WASH) * 
+bytearray(b'\xff\x020`0\x03a')
+bytearray(b'0')
+2022-03-01 13:00:12,576 - [INFO] - instrument_device - --> ASPIRATE: 40.0 µL @ 100.0 µL/s to abs pos=960
+bytearray(b'\xff\x020@\x03q')
+2022-03-01 13:00:12,624 - [INFO] - bb_system - Reagent 'WATER', label 'B0201', volume used 22000.0 µL air_gap=True 
+2022-03-01 13:00:12,625 - [INFO] - bb_system - Setting new system state to '1'
+2022-03-01 13:00:12,625 - [INFO] - runner_script - ===| RUNSCRIPT STEP Deliver Reagent 'PBST': 52 of 56|===
+2022-03-01 13:00:12,626 - [INFO] - bb3_runner - **** DELIVER REAGENT WASH (Reagent='PBST') ****
+2022-03-01 13:00:12,626 - [INFO] - bb_system - *** DELIVER REAGENT AND WASH TO CARTRIDGE (Reagent='PBST' )***
+2022-03-01 13:00:12,627 - [INFO] - bb_system - Setting new system state to '3'
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 13:00:12,656 - [INFO] - bb_system -  * Open Valve 'OTTO' @ A03, position=3
+.........
+.......
+2022-03-01 13:00:16,267 - [INFO] - bb_system -  * Open Valve 'PBST' @ B0101, position=(177.8, 78.4, 59.0)
+bytearray(b'\xff\x020`960\x03n')
+bytearray(b'960')
+2022-03-01 13:00:16,352 - [INFO] - instrument_device - --> ASPIRATE: 550.0 µL @ 50.0 µL/s to abs pos=14160
+bytearray(b'\xff\x020@\x03q')
+2022-03-01 13:00:16,400 - [INFO] - bb_system -  ** ASPIRATE REAGENT FROM BYPASS (Reagent='PBST' 550.0 µL @ 50.0 µL/s)**
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+.......
+.........
+....
+2022-03-01 13:00:33,138 - [INFO] - instrument_device - Flowrate=44.47 µL/s, Total Volume=471.37 µL, Total Air=18.33, Num pts=166, Elapsed time=16.71 secs
+2022-03-01 13:00:33,189 - [INFO] - bb_system -  ** ASPIRATE AIR FROM BYPASS (208.0 µL @ 50.0 µL/s)**
+bytearray(b'\xff\x020`14160\x03c')
+bytearray(b'14160')
+2022-03-01 13:00:33,231 - [INFO] - instrument_device - --> ASPIRATE: 208.0 µL @ 50.0 µL/s to abs pos=19152
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 13:00:38,347 - [INFO] - instrument_device - Flowrate=44.62 µL/s, Total Volume=660.33 µL, Total Air=18.33, Num pts=217, Elapsed time=21.98 secs
+2022-03-01 13:00:38,400 - [INFO] - bb_system -  ** PUSH TO WASTE (50.0 µL @ 50.0 µL/s)**
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 13:00:39,454 - [INFO] - bb_system -  * Open Valve 'WASTE' @ A06, position=6
+bytearray(b'\xff\x020`19152\x03o')
+bytearray(b'19152')
+2022-03-01 13:00:39,502 - [INFO] - instrument_device - --> DISPENSE: 50.0 µL @ 50.0 µL/s to abs pos=17952
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 13:00:42,686 - [INFO] - bb_system -  * Open Valve 'CL1' @ A01, position=1
+2022-03-01 13:00:42,687 - [INFO] - bb_system -  ** DISPENSE TO BYPASS (Reagent='PBST' 500.0 µL @ 50.0 µL/s)**
+bytearray(b'\xff\x020`17952\x03i')
+bytearray(b'17952')
+2022-03-01 13:00:42,734 - [INFO] - instrument_device - --> DISPENSE: 500.0 µL @ 50.0 µL/s to abs pos=5952
+bytearray(b'\xff\x020@\x03q')
+Exception in thread Thread-2:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/threading.py", line 917, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.7/threading.py", line 865, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/pi/bb3/bb3/flowsensor.py", line 35, in accumulate_flowsensor_data
+    fs_vals = self.get_values()
+  File "/home/pi/bb3/bb3/sensiron.py", line 117, in get_values
+    fmsg = self.query_flow()
+  File "/home/pi/bb3/bb3/sensiron.py", line 82, in query_flow
+    self.bus.i2c_rdwr(msg)
+  File "/home/pi/.local/lib/python3.7/site-packages/smbus2/smbus2.py", line 658, in i2c_rdwr
+    ioctl(self.fd, I2C_RDWR, ioctl_data)
+OSError: [Errno 121] Remote I/O error
+
+bytearray(b'\xff\x020@\x03q')
+Exception in thread Thread-3:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/lib16in-1.0.0-py3.7.egg/lib16in/__init__.py", line 16, in readCh
+    val = bus.read_word_data(hw_add, INPUTS16_INPORT_REG_ADD)
+OSError: [Errno 121] Remote I/O error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/threading.py", line 917, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.7/threading.py", line 865, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/pi/bb3/bb3/bb_system.py", line 961, in monitor_sensors
+    sens_changed = sens.read_all_sensors()
+  File "/home/pi/bb3/bb3/state_sensor.py", line 81, in read_all_sensors
+    s.read_state()
+  File "/home/pi/bb3/bb3/state_sensor.py", line 50, in read_state
+    self.state = lib16in.readCh(self.bus_pos, self.channel)
+  File "/usr/local/lib/python3.7/dist-packages/lib16in-1.0.0-py3.7.egg/lib16in/__init__.py", line 19, in readCh
+    raise Exception(e)
+Exception: [Errno 121] Remote I/O error
+
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 13:00:53,896 - [INFO] - instrument_device - Flowrate=32.06 µL/s, Total Volume=243.66 µL, Total Air=18.33, Num pts=324, Elapsed time=32.82 secs
+2022-03-01 13:00:53,896 - [INFO] - bb_system - Setting new system state to '4'
+...
+bytearray(b'\xff\x020`5952\x03Z')
+bytearray(b'5952')
+bytearray(b'\xff\x020`5952\x03Z')
+bytearray(b'5952')
+2022-03-01 13:00:54,767 - [INFO] - instrument_device - --> ASPIRATE: 752.0 µL @ 50.0 µL/s to abs pos=24000
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 13:01:11,917 - [INFO] - bb_system -  * Open Valve 'OTTO' @ A03, position=3
+2022-03-01 13:01:11,918 - [INFO] - instrument_device - --> EMPTY: @ 200.0 µL/s
+bytearray(b'\xff\x020`24000\x03g')
+bytearray(b'24000')
+bytearray(b'\xff\x020`24000\x03g')
+bytearray(b'24000')
+2022-03-01 13:01:12,013 - [INFO] - instrument_device - --> DISPENSE: 1000.0 µL @ 200.0 µL/s to abs pos=0
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+...
+2022-03-01 13:01:30,056 - [INFO] - bb_system - *** ASPIRATE FROM INPUT (750.0 µL @ 50.0 µL/s) ***
+bytearray(b'\xff\x020`0\x03a')
+bytearray(b'0')
+2022-03-01 13:01:30,092 - [INFO] - instrument_device - --> ASPIRATE: 750.0 µL @ 50.0 µL/s to abs pos=18000
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 13:01:46,267 - [INFO] - bb_system -  * Open Valve 'OTTO' @ A03, position=3
+2022-03-01 13:01:46,268 - [INFO] - instrument_device - --> EMPTY: @ 200.0 µL/s
+bytearray(b'\xff\x020`18000\x03h')
+bytearray(b'18000')
+bytearray(b'\xff\x020`18000\x03h')
+bytearray(b'18000')
+2022-03-01 13:01:46,363 - [INFO] - instrument_device - --> DISPENSE: 750.0 µL @ 200.0 µL/s to abs pos=0
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+....
+2022-03-01 13:02:03,601 - [INFO] - bb_system -   * Close Valve 'WASH' @ WASH) * 
+bytearray(b'\xff\x020`0\x03a')
+bytearray(b'0')
+2022-03-01 13:02:03,642 - [INFO] - instrument_device - --> ASPIRATE: 40.0 µL @ 100.0 µL/s to abs pos=960
+bytearray(b'\xff\x020@\x03q')
+2022-03-01 13:02:03,691 - [INFO] - bb_system - Reagent 'PBST', label 'B0101', volume used 19800.0 µL air_gap=True 
+2022-03-01 13:02:03,694 - [INFO] - bb_system - Setting new system state to '1'
+2022-03-01 13:02:03,696 - [INFO] - runner_script - ===| RUNSCRIPT STEP Deliver Reagent 'PBST': 53 of 56|===
+2022-03-01 13:02:03,697 - [INFO] - bb3_runner - **** DELIVER REAGENT WASH (Reagent='PBST') ****
+2022-03-01 13:02:03,697 - [INFO] - bb_system - *** DELIVER REAGENT AND WASH TO CARTRIDGE (Reagent='PBST' )***
+2022-03-01 13:02:03,698 - [INFO] - bb_system - Setting new system state to '3'
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 13:02:03,722 - [INFO] - bb_system -  * Open Valve 'OTTO' @ A03, position=3
+.........
+.......
+2022-03-01 13:02:07,334 - [INFO] - bb_system -  * Open Valve 'PBST' @ B0101, position=(177.8, 78.4, 59.0)
+bytearray(b'\xff\x020`960\x03n')
+bytearray(b'960')
+2022-03-01 13:02:07,419 - [INFO] - instrument_device - --> ASPIRATE: 550.0 µL @ 50.0 µL/s to abs pos=14160
+bytearray(b'\xff\x020@\x03q')
+2022-03-01 13:02:07,466 - [INFO] - bb_system -  ** ASPIRATE REAGENT FROM BYPASS (Reagent='PBST' 550.0 µL @ 50.0 µL/s)**
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+.......
+.........
+....
+2022-03-01 13:02:24,162 - [INFO] - instrument_device - Flowrate=0.00 µL/s, Total Volume=0.00 µL, Total Air=0.00, Num pts=0.0, Elapsed time=0.00 secs
+2022-03-01 13:02:24,213 - [INFO] - bb_system -  ** ASPIRATE AIR FROM BYPASS (208.0 µL @ 50.0 µL/s)**
+bytearray(b'\xff\x020`14160\x03c')
+bytearray(b'14160')
+2022-03-01 13:02:24,250 - [INFO] - instrument_device - --> ASPIRATE: 208.0 µL @ 50.0 µL/s to abs pos=19152
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 13:02:29,338 - [INFO] - instrument_device - Flowrate=0.00 µL/s, Total Volume=0.00 µL, Total Air=0.00, Num pts=0.0, Elapsed time=0.00 secs
+2022-03-01 13:02:29,389 - [INFO] - bb_system -  ** PUSH TO WASTE (50.0 µL @ 50.0 µL/s)**
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 13:02:30,441 - [INFO] - bb_system -  * Open Valve 'WASTE' @ A06, position=6
+bytearray(b'\xff\x020`19152\x03o')
+bytearray(b'19152')
+2022-03-01 13:02:30,489 - [INFO] - instrument_device - --> DISPENSE: 50.0 µL @ 50.0 µL/s to abs pos=17952
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 13:02:33,673 - [INFO] - bb_system -  * Open Valve 'CL1' @ A01, position=1
+2022-03-01 13:02:33,674 - [INFO] - bb_system -  ** DISPENSE TO BYPASS (Reagent='PBST' 500.0 µL @ 50.0 µL/s)**
+bytearray(b'\xff\x020`17952\x03i')
+bytearray(b'17952')
+2022-03-01 13:02:33,721 - [INFO] - instrument_device - --> DISPENSE: 500.0 µL @ 50.0 µL/s to abs pos=5952
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020@\x03q')
+bytearray(b'\xff\x020`\x03Q')
+2022-03-01 13:02:44,857 - [INFO] - instrument_device - Flowrate=0.00 µL/s, Total Volume=0.00 µL, Total Air=0.00, Num pts=0.0, Elapsed time=0.00 secs
+2022-03-01 13:02:44,858 - [INFO] - bb_system - Setting new system state to '4'
+...
+bytearray(b'\xff\x020`5952\x03Z')
+bytearray(b'5952')
+bytearray(b'\xff\x020`5952\x03Z')
+bytearray(b'5952')
+2022-03-01 13:02:45,737 - [INFO] - instrument_device - --> ASPIRATE: 752.0 µL @ 50.0 µL/s to abs pos=24000
+bytearray(b'\xff\x020@\x03q')
+Traceback (most recent call last):
+  File "bb3_uimain.py", line 605, in update_main_status
+    self.update_flow_data()
+  File "bb3_uimain.py", line 478, in update_flow_data
+    time0 = arr[0, 0]
+IndexError: too many indices for array: array is 1-dimensional, but 2 were indexed
+Aborted
+pi@charmander:~/bb3/bb3 $ 2022-03-01 13:02:48,638 - [ERR ] - bb3_runner - Unexpected Exception!
+Traceback (most recent call last):
+  File "/home/pi/bb3/bb3/bb3_runner.py", line 1155, in start_runner_server
+    runner.run_server()
+  File "/home/pi/bb3/bb3/bb3_runner.py", line 1119, in run_server
+    msg = self.conn.recv()
+  File "/usr/lib/python3.7/multiprocessing/connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "/usr/lib/python3.7/multiprocessing/connection.py", line 407, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/lib/python3.7/multiprocessing/connection.py", line 383, in _recv
+    raise EOFError
+EOFError
+Process bb3runner:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/pi/bb3/bb3/bb3_runner.py", line 1155, in start_runner_server
+    runner.run_server()
+  File "/home/pi/bb3/bb3/bb3_runner.py", line 1119, in run_server
+    msg = self.conn.recv()
+  File "/usr/lib/python3.7/multiprocessing/connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "/usr/lib/python3.7/multiprocessing/connection.py", line 407, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/lib/python3.7/multiprocessing/connection.py", line 383, in _recv
+    raise EOFError
+EOFError
+
